@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 600px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
